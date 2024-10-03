@@ -9,6 +9,7 @@
 body{
   margin: 0;
   padding: 0; 
+  background-image:url(imagens/bac11.png) ;
  
   
 }
@@ -27,9 +28,623 @@ img{
     width: 50px;
     height: 50px;
 }
-/* barra de naveção inicio*/
+
+/* depoimentos */
+.btn3:link,
+.btn3:visited {
+    left: 680px;
+    top: 0px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 0px;
+    display: inline-block;
+    border-radius: 10px;
+    transition: all .2s;
+    position: absolute;
+}
+
+.btn3:hover {
+    transform: translateY(3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn3:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white3 {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #000000;
+}
+
+.btn3::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white3::after {
+    background-color: #fff;
+}
+
+.btn3:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated3 {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+/* depoimentos*/
+/* institucional */
+.btn1:link,
+.btn1:visited {
+    left: 550px;
+    top: 0px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 0px;
+    display: inline-block;
+    border-radius: 10px;
+    transition: all .2s;
+    position: absolute;
+}
+
+.btn1:hover {
+    transform: translateY(3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn1:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white1{
+    background-color: #00000000;
+    color: #000;
+}
+
+.btn1::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white1::after {
+    background-color: #fff;
+}
+
+.btn1:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated1 {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+/* institucional*/
+/* Nossa Equipe */
+.btn4:link,
+.btn4:visited {
+    left: 800px;
+    top: 0px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 0px;
+    display: inline-block;
+    border-radius: 10px;
+    transition: all .2s;
+    position: absolute;
+}
+
+.btn4:hover {
+    transform: translateY(3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn4:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white4 {
+    background-color: rgba(240, 230, 230, 0.1);
+    color: #000;
+}
+
+.btn4::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white4::after {
+    background-color: #fff;
+}
+
+.btn4:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated4 {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+/* Nossa Equipe */
+/* Proposta pedagógica*/
+.btn5:link,
+.btn5:visited {
+    left: 925px;
+    top: 0px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 0px;
+    display: inline-block;
+    border-radius: 10px;
+    transition: all .2s;
+    position: absolute;
+}
+
+.btn5:hover {
+    transform: translateY(3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn5:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white5 {
+    background-color: rgba(240, 230, 230, 0.1);
+    color: #000;
+}
+
+.btn5::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white5::after {
+    background-color: #fff;
+}
+
+.btn5:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated5 {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+/* Proposta pedagógica */
+/* Segmentos da educação */
+.btn6:link,
+.btn6:visited {
+    left: 1120px;
+    top: 0px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 0px;
+    display: inline-block;
+    border-radius: 10px;
+    transition: all .2s;
+    position: absolute;
+}
+
+.btn6:hover {
+    transform: translateY(3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn6:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white6{
+    background-color: rgba(240, 230, 230, 0.1);
+    color: #000;
+}
+
+.btn6::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white6::after {
+    background-color: #fff;
+}
+
+.btn6:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated6 {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+/* Segmentos da educação */
+
+/* home */
+.btn:link,
+.btn:visited {
+    left: 480px;
+    top: 0px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 0px;
+    display: inline-block;
+    border-radius: 10px;
+    transition: all .2s;
+    position: absolute;
+}
+
+.btn:hover {
+    transform: translateY(3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #777;
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white::after {
+    background-color: #fff;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+/* home  */
+/* localização */
+.btn7:link,
+.btn7:visited {
+    left: 1340px;
+    top: 0px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 0px;
+    display: inline-block;
+    border-radius: 10px;
+    transition: all .2s;
+    position: absolute;
+}
+
+.btn7:hover {
+    transform: translateY(3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn7:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white7{
+    background-color: rgba(240, 230, 230, 0.1);
+    color: #000;
+}
+
+.btn7::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white7::after {
+    background-color: #fff;
+}
+
+.btn7:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated7 {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+/* loclização */
+/* contato */
+.btn8:link,
+.btn8:visited {
+    left: 1455px;
+    top: 0px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 0px;
+    display: inline-block;
+    border-radius: 10px;
+    transition: all .2s;
+    position: absolute;
+}
+
+.btn8:hover {
+    transform: translateY(3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn8:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white8{
+    background-color: rgba(240, 230, 230, 0.1);
+    color: #000;
+}
+
+.btn8::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white8::after {
+    background-color: #fff;
+}
+
+.btn8:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated8 {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+/* contato */
+/* galeria */
+.btn9:link,
+.btn9:visited {
+    left: 1540px;
+    top: 0px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 0px;
+    display: inline-block;
+    border-radius: 10px;
+    transition: all .2s;
+    position: absolute;
+}
+
+.btn9:hover {
+    transform: translateY(3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn8:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white9{
+    background-color: rgba(240, 230, 230, 0.1);
+    color: #000;
+}
+
+.btn9::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white9::after {
+    background-color: #fff;
+}
+
+.btn9:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated9 {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+/* galeria  */
 nav{
-    margin-top: 30px;
+
+    margin-top: 0px;
     background-color: #c1e8ff;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
     z-index: 1;
@@ -47,17 +662,17 @@ nav{
     height: 50px;
   }
   nav a{
-    height: 100%;
+    height: 5%;
     padding: 0 30px;
     text-decoration: none;
-    display: flex;
+    
     align-items: center;
     color: black;
   }
   nav a:hover{
     
     border-radius: 5px;
-    background-color: #7da0ca;
+    background-color: r;
   }
   nav li:first-child{
     margin-right: auto;
@@ -110,7 +725,7 @@ nav{
     max-width: 100vw;
     height: 700px;
     margin: auto;
-	  margin-top: 30px;
+	  margin-top: 20px;
   	margin-bottom: 100px;
     position: relative;
     overflow: hidden;

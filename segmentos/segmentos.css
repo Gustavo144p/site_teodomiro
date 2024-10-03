@@ -365,7 +365,7 @@ nav li:first-child {
   width: 30px;
 }
 
-@media only screen and (min-width: 290px) and (max-width: 400px) {
+@media (max-width: 400px) {
   .sidebar {
     width: 100%;
   }
@@ -374,229 +374,117 @@ nav li:first-child {
     display: none;
   }
 
-  .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-
   .Fundamental-I {
-    position: static;
-    transform: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 90%;
-    margin-top: -50px;
+    margin-top: 25px;
+    left: 50%;
 
     h3 {
       margin: 0;
-      padding: 100px 0 0 0;
     }
 
     p {
       margin: 0;
-      text-align: justify;
     }
 
     img {
-      width: 290px;
+      width: 350px;
       height: 175px;
       position: static;
       transform: none;
     }
 
     button {
-      position: static;
-      transform: none;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 80%;
-      margin-top: 5%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      top: 110%;
+      left: 50%;
     }
   }
 
   .Fundamental-II {
-    position: static;
-    transform: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 90%;
-    margin-top: -50px;
+    margin-top: 70%;
+    left: 50%;
 
     h3 {
       margin: 0;
-      padding: 100px 0 0 0;
     }
 
     p {
       margin: 0;
-      text-align: justify;
     }
 
     img {
-      width: 290px;
+      width: 350px;
       height: 175px;
       position: static;
       transform: none;
     }
 
     button {
-      position: static;
-      transform: none;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 80%;
-      margin-top: 5%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      top: 110%;
+      left: 50%;
     }
   }
 
   .ENSINO_FUNDAMENTAL_II_TEMPO_INTEGRAL {
-    position: static;
-    transform: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 90%;
-    margin-top: -50px;
+    margin-top: 130%;
+    left: 50%;
 
     h3 {
       margin: 0;
-      padding: 100px 0 0 0;
     }
 
     p {
       margin: 0;
-      text-align: justify;
     }
 
     img {
-      width: 290px;
+      width: 350px;
       height: 175px;
       position: static;
       transform: none;
     }
 
     button {
-      position: static;
-      transform: none;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 80%;
-      margin-top: 5%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      top: 110%;
+      left: 50%;
     }
   }
 
   .ENSINO_MÉDIO_REGULAR {
-    position: static;
-    transform: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 90%;
-    margin-top: -50px;
+    margin-top: 180%;
+    left: 50%;
 
     h3 {
       margin: 0;
-      padding: 100px 0 0 0;
     }
 
     p {
       margin: 0;
-      text-align: justify;
     }
 
     img {
-      width: 290px;
+      width: 350px;
       height: 175px;
       position: static;
       transform: none;
     }
 
     button {
-      position: static;
-      transform: none;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 80%;
-      margin-top: 5%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      top: 110%;
+      left: 50%;
     }
   }
 
   .ENSINO_MÉDIO_TEMPO_INTEGRAL {
-    position: static;
-    transform: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 90%;
-    margin-top: -50px;
-
-    h3 {
-      margin: 0;
-      padding: 100px 0 0 0;
-    }
-
-    p {
-      margin: 0;
-      text-align: justify;
-    }
-
-    img {
-      width: 290px;
-      height: 175px;
-      position: static;
-      transform: none;
-    }
-
-    button {
-      position: static;
-      transform: none;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 80%;
-      margin-top: 5%;
-    }
-  }
-}
-
-@media only screen and (min-width: 400px) and (max-width: 768px) {
-  .sidebar {
-    width: 100%;
-  }
-
-  .texto {
-    display: none;
-  }
-
-  .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .Fundamental-I {
-    position: static;
-    transform: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 90%;
-    margin-top: 50px;
+    margin-top: 237%;
+    left: 50%;
 
     h3 {
       margin: 0;
@@ -614,571 +502,10 @@ nav li:first-child {
     }
 
     button {
-      position: static;
-      transform: none;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 80%;
-      margin-top: 5%;
-    }
-  }
-
-  .Fundamental-II {
-    position: static;
-    transform: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 90%;
-    margin-top: 50px;
-
-    h3 {
-      margin: 0;
-    }
-
-    p {
-      margin: 0;
-    }
-
-    img {
-      width: 350px;
-      height: 175px;
-      position: static;
-      transform: none;
-    }
-
-    button {
-      position: static;
-      transform: none;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 80%;
-      margin-top: 5%;
-    }
-  }
-
-  .ENSINO_FUNDAMENTAL_II_TEMPO_INTEGRAL {
-    position: static;
-    transform: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 90%;
-    margin-top: 50px;
-
-    h3 {
-      margin: 0;
-    }
-
-    p {
-      margin: 0;
-    }
-
-    img {
-      width: 350px;
-      height: 175px;
-      position: static;
-      transform: none;
-    }
-
-    button {
-      position: static;
-      transform: none;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 80%;
-      margin-top: 5%;
-    }
-  }
-
-  .ENSINO_MÉDIO_REGULAR {
-    position: static;
-    transform: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 90%;
-    margin-top: 50px;
-
-    h3 {
-      margin: 0;
-    }
-
-    p {
-      margin: 0;
-    }
-
-    img {
-      width: 350px;
-      height: 175px;
-      position: static;
-      transform: none;
-    }
-
-    button {
-      position: static;
-      transform: none;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 80%;
-      margin-top: 5%;
-    }
-  }
-
-  .ENSINO_MÉDIO_TEMPO_INTEGRAL {
-    position: static;
-    transform: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 90%;
-    margin-top: 50px;
-
-    h3 {
-      margin: 0;
-    }
-
-    p {
-      margin: 0;
-    }
-
-    img {
-      width: 350px;
-      height: 175px;
-      position: static;
-      transform: none;
-    }
-
-    button {
-      position: static;
-      transform: none;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 80%;
-      margin-top: 5%;
-    }
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .hideOnMobile {
-    display: none;
-  }
-
-  .menu-button {
-    display: block;
-  }
-
-  .sidebar {
-    width: 100%;
-  }
-
-  .texto {
-    display: none;
-  }
-
-  .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .Fundamental-I {
-    position: static;
-    transform: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 90%;
-    margin-top: 50px;
-
-    h3 {
-      margin: 0;
-    }
-
-    p {
-      margin: 0;
-    }
-
-    img {
-      width: 500px;
-      height: 250px;
-      position: static;
-      transform: none;
-      margin: 20px 0px 20px 0px;
-    }
-
-    button {
-      position: static;
-      transform: none;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 30%;
-    }
-  }
-
-  .Fundamental-II {
-    position: static;
-    transform: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 90%;
-    margin-top: 50px;
-
-    h3 {
-      margin: 0;
-    }
-
-    p {
-      margin: 0;
-    }
-
-    img {
-      width: 500px;
-      height: 250px;
-      position: static;
-      transform: none;
-      margin: 20px 0px 20px 0px;
-    }
-
-    button {
-      position: static;
-      transform: none;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 30%;
-    }
-  }
-
-  .ENSINO_FUNDAMENTAL_II_TEMPO_INTEGRAL {
-    position: static;
-    transform: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 90%;
-    margin-top: 50px;
-
-    h3 {
-      margin: 0;
-    }
-
-    p {
-      margin: 0;
-    }
-
-    img {
-      width: 500px;
-      height: 250px;
-      position: static;
-      transform: none;
-      margin: 20px 0px 20px 0px;
-    }
-
-    button {
-      position: static;
-      transform: none;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 30%;
-    }
-  }
-
-  .ENSINO_MÉDIO_REGULAR {
-    position: static;
-    transform: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 90%;
-    margin-top: 50px;
-
-    h3 {
-      margin: 0;
-    }
-
-    p {
-      margin: 0;
-    }
-
-    img {
-      width: 500px;
-      height: 250px;
-      position: static;
-      transform: none;
-      margin: 20px 0px 20px 0px;
-    }
-
-    button {
-      position: static;
-      transform: none;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 30%;
-    }
-  }
-
-  .ENSINO_MÉDIO_TEMPO_INTEGRAL {
-    position: static;
-    transform: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 90%;
-    margin-top: 50px;
-
-    h3 {
-      margin: 0;
-    }
-
-    p {
-      margin: 0;
-    }
-
-    img {
-      width: 500px;
-      height: 250px;
-      position: static;
-      transform: none;
-      margin: 20px 0px 20px 0px;
-    }
-
-    button {
-      position: static;
-      transform: none;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 30%;
-    }
-  }
-}
-
-@media only screen and (min-width: 1024px) and (max-width: 1280px) {
-  .hideOnMobile {
-    display: none;
-  }
-
-  .menu-button {
-    display: flex;
-  }
-
-  .sidebar {
-    width: 100%;
-  }
-
-  /* nav li:first-child {
-    margin-right: 0;
-  } */
-
-  .a {
-    display: none;
-  }
-
-  .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .Fundamental-I {
-    position: static;
-    transform: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 90%;
-    margin-top: 50px;
-
-    h3 {
-      margin: 0;
-    }
-
-    p {
-      margin: 0;
-    }
-
-    img {
-      width: 700px;
-      /* height: 250px; */
-      position: static;
-      transform: none;
-      margin: 20px 0px 20px 0px;
-    }
-
-    button {
-      position: static;
-      transform: none;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 30%;
-    }
-  }
-
-  .Fundamental-II {
-    position: static;
-    transform: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 90%;
-    margin-top: 50px;
-
-    h3 {
-      margin: 0;
-    }
-
-    p {
-      margin: 0;
-    }
-
-    img {
-      width: 700px;
-      /* height: 250px; */
-      position: static;
-      transform: none;
-      margin: 20px 0px 20px 0px;
-    }
-
-    button {
-      position: static;
-      transform: none;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 30%;
-    }
-  }
-
-  .ENSINO_FUNDAMENTAL_II_TEMPO_INTEGRAL {
-    position: static;
-    transform: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 90%;
-    margin-top: 50px;
-
-    h3 {
-      margin: 0;
-    }
-
-    p {
-      margin: 0;
-    }
-
-    img {
-      width: 700px;
-      /* height: 250px; */
-      position: static;
-      transform: none;
-      margin: 20px 0px 20px 0px;
-    }
-
-    button {
-      position: static;
-      transform: none;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 30%;
-    }
-  }
-
-  .ENSINO_MÉDIO_REGULAR {
-    position: static;
-    transform: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 90%;
-    margin-top: 50px;
-
-    h3 {
-      margin: 0;
-    }
-
-    p {
-      margin: 0;
-    }
-
-    img {
-      width: 700px;
-      /* height: 250px; */
-      position: static;
-      transform: none;
-      margin: 20px 0px 20px 0px;
-    }
-
-    button {
-      position: static;
-      transform: none;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 30%;
-    }
-  }
-
-  .ENSINO_MÉDIO_TEMPO_INTEGRAL {
-    position: static;
-    transform: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 90%;
-    margin-top: 50px;
-
-    h3 {
-      margin: 0;
-    }
-
-    p {
-      margin: 0;
-    }
-
-    img {
-      width: 700px;
-      /* height: 250px; */
-      position: static;
-      transform: none;
-      margin: 20px 0px 20px 0px;
-    }
-
-    button {
-      position: static;
-      transform: none;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 30%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      top: 110%;
+      left: 50%;
     }
   }
 }
