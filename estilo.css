@@ -1,8 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-	justify-content: space-around;
+    overflow: hidden;
 
 }
 
@@ -10,6 +9,7 @@ body{
   margin: 0;
   padding: 0; 
   background-image:url(imagens/background.png);
+  overflow: hidden;
  
   
 }
@@ -824,6 +824,7 @@ img{
 /* fim barra de navegação */
 
 /* slider inicio */
+
   .sidebar{
     position: fixed;
     top: 0; 
@@ -869,7 +870,7 @@ img{
     max-width: 100vw;
     height: 780px;
     margin: auto;
-	  margin-top: 20px;
+    margin-top: 20px;
   	margin-bottom: 100px;
     position: relative;
     overflow: hidden;
