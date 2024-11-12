@@ -11,17 +11,7 @@ body{
 
 }
 
-@media(max-width: 800px) {
-    .nav_10{
-    display: none;
-    }
-}
- 
-@media(min-width: 800px) {
-    .nav_bar2{
-    display: none;
-    }
-}
+
 
 /* footer inicio */
 footer{
@@ -175,6 +165,19 @@ footer{
 }
 /*footer fim  */
 
+@media(max-width: 1000px) {
+    .sidebar_1{
+    display: none;
+    }
+}
+ 
+@media(min-width: 8000px) {
+    .sidebar_1{
+    display: none;
+    }
+}
+
+
 nav{
 
     margin-top: 0px;
@@ -182,6 +185,7 @@ nav{
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
     z-index: 1;
     left: 1000px;
+    align-items: center;
  
   }
   nav ul{
@@ -189,7 +193,7 @@ nav{
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+
   }
   nav li{
     height: 50px;
@@ -205,7 +209,6 @@ nav{
   nav a:hover{
     
     border-radius: 5px;
-    background-color: r;
   }
   nav li:first-child{
     margin-right: auto;
@@ -220,7 +223,7 @@ img{
 .btn3:link,
 .btn3:visited {
     left: 680px;
-    top: 0px;
+    top: 10px;
     text-transform: uppercase;
     text-decoration: none;
     padding: 10px 0px;
@@ -288,7 +291,7 @@ img{
 .btn1:link,
 .btn1:visited {
     left: 550px;
-    top: 0px;
+    top: 10px;
     text-transform: uppercase;
     text-decoration: none;
     padding: 10px 0px;
@@ -356,7 +359,7 @@ img{
 .btn4:link,
 .btn4:visited {
     left: 800px;
-    top: 0px;
+    top: 10px;
     text-transform: uppercase;
     text-decoration: none;
     padding: 10px 0px;
@@ -424,7 +427,7 @@ img{
 .btn5:link,
 .btn5:visited {
     left: 925px;
-    top: 0px;
+    top: 10px;
     text-transform: uppercase;
     text-decoration: none;
     padding: 10px 0px;
@@ -492,7 +495,7 @@ img{
 .btn6:link,
 .btn6:visited {
     left: 1120px;
-    top: 0px;
+    top: 10px;
     text-transform: uppercase;
     text-decoration: none;
     padding: 10px 0px;
@@ -561,7 +564,7 @@ img{
 .btn:link,
 .btn:visited {
     left: 480px;
-    top: 0px;
+    top: 10px;
     text-transform: uppercase;
     text-decoration: none;
     padding: 10px 0px;
@@ -629,7 +632,7 @@ img{
 .btn7:link,
 .btn7:visited {
     left: 1340px;
-    top: 0px;
+    top: 10px;
     text-transform: uppercase;
     text-decoration: none;
     padding: 10px 0px;
@@ -697,7 +700,7 @@ img{
 .btn8:link,
 .btn8:visited {
     left: 1455px;
-    top: 0px;
+    top: 10px;
     text-transform: uppercase;
     text-decoration: none;
     padding: 10px 0px;
@@ -765,7 +768,7 @@ img{
 .btn9:link,
 .btn9:visited {
     left: 1540px;
-    top: 0px;
+    top: 10px;
     text-transform: uppercase;
     text-decoration: none;
     padding: 10px 0px;
@@ -840,7 +843,7 @@ img{
     right: 0;
     height: 100vh;
     width: 250px;
-    background-color: rgba(0, 0, 255, 0.15);
+    background-color: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(12px);
     box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
     list-style: none;
@@ -954,6 +957,17 @@ img{
 
 /* slider fim */
 
+@media(max-width: 1000px) {
+    .como_comecou{
+    display: none;
+    }
+}
+ 
+@media(min-width: 8000px) {
+    .como_comecou{
+    display: none;
+    }
+}
 .como_comecou{
   overflow: hidden;
   background-color: #adadad;
