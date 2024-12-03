@@ -1,0 +1,23 @@
+body {
+   background-image: url(../imagens/background.png);
+}
+
+p {
+    font-size: 30px;
+}
+
+img {
+    width: 500px;
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+.imagens {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.principal {
+    align-items: center;
+    text-align: center;
+}
